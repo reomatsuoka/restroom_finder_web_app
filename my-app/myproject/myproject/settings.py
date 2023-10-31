@@ -86,12 +86,11 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'restroom_database',
-        'USER': 'postgres',
-        'PASSWORD': 'radwimps374582337',
+        'NAME': 'postgres',
+        'USER': 'reo37458',
+        'PASSWORD': 'mypassword',
         'HOST': 'localhost',
         'PORT': '5432',
-        'TIME_ZONE': 'Asia/Tokyo',
     }
 }
 
