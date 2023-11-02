@@ -1,7 +1,0 @@
-django==4.2.6
-django-cors-headers
-djangorestframework==3.14.0
-psycopg2
-psycopg2-binary==2.9.9
-numpy==1.26.1
-pandas==2.1.1
