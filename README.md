@@ -1,6 +1,7 @@
 # restroom_finder_web_app
 
 ## 実装済みの機能
+- APIドキュメント自動生成(swagger, redoc)
 - GoogleMapの表示
 - ピンの座標生成
 - サイト上でピンをさせるようになる
@@ -38,7 +39,7 @@ DATABASES = {
     }
 }
 ```
-3. restroom_finder_web_app/restroom_app/.env　を作成<br>
+3. restroom_finder_web_app/restroom_app/frontend/.env　を作成<br>
   REACT_APP_GOOGLE_MAPS_API_KEY={GoogleマップのAPIキーを入れる}
 
 4. backendとfrontendのターミナルをそれぞれ開いて下記の手順に進む
@@ -55,3 +56,8 @@ restroom-app/backendで
 restroom-appで
 - `npm install`
 - `npm start`
+
+## その他
+APIドキュメントの確認は以下のURL<br>
+swagger: http://127.0.0.1:8000/swagger<br>
+redoc: http://127.0.0.1:8000/redoc
